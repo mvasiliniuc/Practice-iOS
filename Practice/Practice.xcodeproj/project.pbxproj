@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		08DE3D9F1FC03C1A005EC98F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE3D9E1FC03C1A005EC98F /* AppDelegate.swift */; };
-		08DE3DA11FC03C1A005EC98F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE3DA01FC03C1A005EC98F /* ViewController.swift */; };
-		08DE3DA41FC03C1A005EC98F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08DE3DA21FC03C1A005EC98F /* Main.storyboard */; };
 		08DE3DA61FC03C1A005EC98F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08DE3DA51FC03C1A005EC98F /* Assets.xcassets */; };
 		08DE3DA91FC03C1A005EC98F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08DE3DA71FC03C1A005EC98F /* LaunchScreen.storyboard */; };
 		08DE3DB41FC03C1A005EC98F /* PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE3DB31FC03C1A005EC98F /* PracticeTests.swift */; };
 		08DE3DBF1FC03C1A005EC98F /* PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE3DBE1FC03C1A005EC98F /* PracticeUITests.swift */; };
 		24AC9C0E02E38D16D5220881 /* Pods_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A1C1C6E42E7E936A3DBEC3 /* Pods_Practice.framework */; };
+		6FB4B7D31FC04575008E194E /* StartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4B7D21FC04575008E194E /* StartupViewController.swift */; };
+		6FB4B7D81FC04832008E194E /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4B7D71FC04832008E194E /* Routable.swift */; };
+		6FB4B7DA1FC04B80008E194E /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4B7D91FC04B80008E194E /* DashboardViewController.swift */; };
+		6FB4B7DD1FC04C8E008E194E /* UIViewController+SimpleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4B7DC1FC04C8E008E194E /* UIViewController+SimpleTransition.swift */; };
+		6FB4B7DF1FC05097008E194E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4B7DE1FC05097008E194E /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +40,6 @@
 /* Begin PBXFileReference section */
 		08DE3D9B1FC03C1A005EC98F /* Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08DE3D9E1FC03C1A005EC98F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		08DE3DA01FC03C1A005EC98F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		08DE3DA31FC03C1A005EC98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08DE3DA51FC03C1A005EC98F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08DE3DA81FC03C1A005EC98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08DE3DAA1FC03C1A005EC98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +49,11 @@
 		08DE3DBA1FC03C1A005EC98F /* PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08DE3DBE1FC03C1A005EC98F /* PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeUITests.swift; sourceTree = "<group>"; };
 		08DE3DC01FC03C1A005EC98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FB4B7D21FC04575008E194E /* StartupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupViewController.swift; sourceTree = "<group>"; };
+		6FB4B7D71FC04832008E194E /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
+		6FB4B7D91FC04B80008E194E /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		6FB4B7DC1FC04C8E008E194E /* UIViewController+SimpleTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+SimpleTransition.swift"; sourceTree = "<group>"; };
+		6FB4B7DE1FC05097008E194E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		83703A4AECC0D38AAF45BF08 /* Pods-Practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practice.release.xcconfig"; path = "Pods/Target Support Files/Pods-Practice/Pods-Practice.release.xcconfig"; sourceTree = "<group>"; };
 		C8A1C1C6E42E7E936A3DBEC3 /* Pods_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58787E4B130B5AA4F9BE617 /* Pods-Practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Practice/Pods-Practice.debug.xcconfig"; sourceTree = "<group>"; };
@@ -104,9 +110,11 @@
 		08DE3D9D1FC03C1A005EC98F /* Practice */ = {
 			isa = PBXGroup;
 			children = (
+				6FB4B7D61FC04821008E194E /* SDK */,
+				6FB4B7D41FC0459D008E194E /* Startup */,
+				6FB4B7D01FC043B6008E194E /* Login */,
+				6FB4B7D51FC04800008E194E /* Dashboard */,
 				08DE3D9E1FC03C1A005EC98F /* AppDelegate.swift */,
-				08DE3DA01FC03C1A005EC98F /* ViewController.swift */,
-				08DE3DA21FC03C1A005EC98F /* Main.storyboard */,
 				08DE3DA51FC03C1A005EC98F /* Assets.xcassets */,
 				08DE3DA71FC03C1A005EC98F /* LaunchScreen.storyboard */,
 				08DE3DAA1FC03C1A005EC98F /* Info.plist */,
@@ -138,6 +146,47 @@
 				C8A1C1C6E42E7E936A3DBEC3 /* Pods_Practice.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FB4B7D01FC043B6008E194E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6FB4B7DE1FC05097008E194E /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6FB4B7D41FC0459D008E194E /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				6FB4B7D21FC04575008E194E /* StartupViewController.swift */,
+			);
+			path = Startup;
+			sourceTree = "<group>";
+		};
+		6FB4B7D51FC04800008E194E /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				6FB4B7D91FC04B80008E194E /* DashboardViewController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		6FB4B7D61FC04821008E194E /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				6FB4B7DB1FC04C73008E194E /* UI */,
+				6FB4B7D71FC04832008E194E /* Routable.swift */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		6FB4B7DB1FC04C73008E194E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6FB4B7DC1FC04C8E008E194E /* UIViewController+SimpleTransition.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		94EAF0102CDC983491EB0C05 /* Pods */ = {
@@ -261,7 +310,6 @@
 			files = (
 				08DE3DA91FC03C1A005EC98F /* LaunchScreen.storyboard in Resources */,
 				08DE3DA61FC03C1A005EC98F /* Assets.xcassets in Resources */,
-				08DE3DA41FC03C1A005EC98F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,8 +361,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Practice/Pods-Practice-resources.sh",
-				"$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle",
-				"$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseGoogleAuthUI.bundle,
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -351,8 +399,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08DE3DA11FC03C1A005EC98F /* ViewController.swift in Sources */,
+				6FB4B7D31FC04575008E194E /* StartupViewController.swift in Sources */,
+				6FB4B7DD1FC04C8E008E194E /* UIViewController+SimpleTransition.swift in Sources */,
+				6FB4B7DA1FC04B80008E194E /* DashboardViewController.swift in Sources */,
 				08DE3D9F1FC03C1A005EC98F /* AppDelegate.swift in Sources */,
+				6FB4B7DF1FC05097008E194E /* LoginViewController.swift in Sources */,
+				6FB4B7D81FC04832008E194E /* Routable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,14 +440,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		08DE3DA21FC03C1A005EC98F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				08DE3DA31FC03C1A005EC98F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		08DE3DA71FC03C1A005EC98F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
