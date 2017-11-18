@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+use_frameworks!
+
+def firebase_pods
+  # TODO: Put URL for firebase
+
+  pod 'Firebase/Auth'
+end
+
+def firebase_ui_pods
+  pod 'FirebaseUI/Auth'
+  pod 'FirebaseUI/Google'
+end
+
+target 'Practice' do
+  firebase_pods
+  firebase_ui_pods
+
+  # Pods for Practice
+
+  abstract_target 'PracticeTests' do
+  end
+
+  abstract_target 'PracticeUITests' do
+  end
+end
